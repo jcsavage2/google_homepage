@@ -1,0 +1,114 @@
+/* *{
+    -webkit-appearance: none;
+    border: 1px solid red;
+} */
+
+body{
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    color: DimGrey;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#center{
+    padding-top: 225px;
+    margin:auto;
+}
+
+#logo{
+    display:block;
+    padding-bottom: 20px;
+    margin:auto;
+}
+
+#searchBar{
+    display: block;
+    width: 35%;
+    margin:auto;
+    height: 40px;
+    font-size: 15pt;
+    border-radius: 25px;
+}
+
+#searchBar:hover{
+    box-shadow: 5px 5px 5px lightgrey, 0 0 10px lightgrey;
+}
+
+#buttonlist{
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+#buttonlist button{
+    -webkit-appearance: none;
+    margin: 10px 15px;
+    width: 10em;
+    height: 3em;
+    font-size: 10pt;
+    border-radius: 6px;
+    background-color: #f4f4f4;
+    color: DimGrey;
+}
+
+#buttonlist button:hover{
+    border: 1px solid darkgrey;
+    color: black;
+}
+
+/*Top Navigation Bar*/
+#topnav{
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+
+#topnav div{
+    display: inline-block;
+}
+
+#topnav li{
+    display:inline-block;
+    margin: 5px;
+}
+
+#leftnav{
+    float: left;
+    margin: 25px 10px 5px 25px;
+}
+#rightnav{
+    float: right;
+    margin: 25px 25px 5px 10px;
+}
+
+
+/*Bottom Navigation Bar*/
+#bottomnav{
+    display:block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f4f4f4;
+    overflow:hidden;
+}
+
+#bottomnav div{
+    display: inline-block;
+}
+#bottomnav li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#bottomleftnav{
+    float:left;
+    margin: 10px 10px 15px 25px;
+}
+
+#bottomrightnav{
+    float:right;
+    margin: 10px 25px 15px 10px;
+}
